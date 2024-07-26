@@ -5,4 +5,6 @@ build:
   os: ubuntu-22.04
 sphinx:
   builder: html
+  tools:
+    python: "3.9.11"
   configuration: source/conf.py
